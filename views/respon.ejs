@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('./partials/head'); %>
+  </head>
+  <body class="container">
+    <header><%- include('./partials/header'); %></header>
+
+    <main>
+     <div>
+        <h2>Faces of die is <%=faces%></h2>
+        <h2>number of dies is <%=type%></h2>
+        <form method="post" action="/res" target="_blank">
+            <input type="submit" value="next" >
+        </form>
+
+
+     </div>
+    </main>
+
+    <footer><%- include('./partials/footer'); %></footer>
+  </body>
+</html>
