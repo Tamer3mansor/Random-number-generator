@@ -1,3 +1,6 @@
+// next step :> create generate all funcation to generate all dice random and but it on array to use in ejs 
+//
+
 var express = require('express');
 const app=express();
 var bodyParser = require('body-parser')
