@@ -7,15 +7,14 @@
     <header><%- include('./partials/header'); %></header>
 
     <main>
-     <div>
+      <div>
         <h2>Faces of die is <%=faces%></h2>
-        <h2>number of dies is <%=type%></h2>
-        <form method="post" action="/res" target="_blank">
-            <input type="submit" value="next" >
+        <h2>number of dies is <%=num_of_dices%></h2>
+        <h2>randoms is <%=randoms%></h2>
+        <form method="post" action="/response" target="_blank">
+          <input type="submit" value="next" />
         </form>
-
-
-     </div>
+      </div>
     </main>
 
     <footer><%- include('./partials/footer'); %></footer>

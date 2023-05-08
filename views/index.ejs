@@ -8,16 +8,20 @@
 
     <main>
       <div class="jumbotron">
-        <form name="numbers" method="post" target="_blank" action="/res">
-          <input type="text" placeholder="How many dic to roll.." name="dices" /><br /><br />
+        <form name="numbers" method="post" target="_blank" action="/response">
+          <input
+            type="text"
+            placeholder="How many dic to roll.."
+            name="num_of_dices"
+          /><br /><br />
           <hr />
           <label for="faces">Choose number of faces:</label>
           <select name="faces">
-            <option value="6">d6</option>
             <option value="4">d4</option>
+            <option value="6">d6</option>
             <option value="8">d8</option>
           </select>
-          <input type="submit" value="Submit">
+          <input type="submit" value="Submit" />
         </form>
       </div>
     </main>
